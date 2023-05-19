@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/PokemmonG0/static/css/main.46609b6f.css",
-    "main.js": "/PokemmonG0/static/js/main.ac15b9fd.js",
+    "main.css": "/PokemmonG0/static/css/main.a0583b0f.css",
+    "main.js": "/PokemmonG0/static/js/main.051d50f6.js",
     "index.html": "/PokemmonG0/index.html",
-    "main.46609b6f.css.map": "/PokemmonG0/static/css/main.46609b6f.css.map",
-    "main.ac15b9fd.js.map": "/PokemmonG0/static/js/main.ac15b9fd.js.map"
+    "main.a0583b0f.css.map": "/PokemmonG0/static/css/main.a0583b0f.css.map",
+    "main.051d50f6.js.map": "/PokemmonG0/static/js/main.051d50f6.js.map"
   },
   "entrypoints": [
-    "static/css/main.46609b6f.css",
-    "static/js/main.ac15b9fd.js"
+    "static/css/main.a0583b0f.css",
+    "static/js/main.051d50f6.js"
   ]
 }
