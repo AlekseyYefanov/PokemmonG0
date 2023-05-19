@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/PokemmonG0/static/css/main.46609b6f.css",
+    "main.js": "/PokemmonG0/static/js/main.ac15b9fd.js",
+    "index.html": "/PokemmonG0/index.html",
+    "main.46609b6f.css.map": "/PokemmonG0/static/css/main.46609b6f.css.map",
+    "main.ac15b9fd.js.map": "/PokemmonG0/static/js/main.ac15b9fd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.46609b6f.css",
+    "static/js/main.ac15b9fd.js"
+  ]
+}
