@@ -56,7 +56,7 @@ const PokemonList = () => {
     setSelectedPokemon(pokemon);
   }, []);
 
-  const filterPokemonList = useCallback(() => {
+  const filterPokemonList = () => {
     if(filterType === 'all') {
       setFilteredPokemonList(pokemonList);
       return;
@@ -68,8 +68,7 @@ const PokemonList = () => {
 
     setFilteredPokemonList(filteredList);
     }
-  }, [filterType, pokemonList]);
-
+  }
 
   return (
     <StyledPokemonListWrap>
