@@ -1,4 +1,6 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect } from 'react';
+
+import { StyledPanel } from '../PokemonList/SearchPanel.style';
 
 const fetchPokemonTypes = async (setPokemonTypes) => {
     try {
@@ -23,14 +25,16 @@ const SearchPanel = ({ filterType, setFilterType }) => {
       }
 
     return (
-        <select value={filterType} onChange={handleFilterChange}>
-          <option value="all">All Types</option>
-          {pokemonTypes.map((type) => (
-            <option key={type.name} value={type.name}>
-              {type.name}
-            </option>
-          ))}
-        </select>
+        <StyledPanel>
+            <select value={filterType} onChange={handleFilterChange}>
+                <option value="all">All Types</option>
+                {pokemonTypes.map((type) => (
+                    <option key={type.name} value={type.name}>
+                    {type.name}
+                    </option>
+                ))}
+            </select>
+        </StyledPanel>
       );
 }
 
